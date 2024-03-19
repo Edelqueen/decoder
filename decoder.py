@@ -22,3 +22,6 @@ def decode(message_file):
 
     return text
 
+decoded_message = decode("encoded_message.txt")
+print(decoded_message)
+
